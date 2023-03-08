@@ -1,5 +1,13 @@
 module DVC
 
-# Write your package code here.
+using Base, LibGit2
 
-end
+
+include("add.jl")
+include("install_dvc.jl")
+include("pull.jl")
+include("push.jl")
+include("remote_add.jl")
+include("use_dvc.jl")
+
+end #module
