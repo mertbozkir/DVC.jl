@@ -1,5 +1,4 @@
-using DVC
-using Documenter
+using DVC, Documenter
 
 DocMeta.setdocmeta!(DVC, :DocTestSetup, :(using DVC); recursive=true)
 
